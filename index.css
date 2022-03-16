@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/1101122/pexels-photo-1101122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#caja{
+    width: 1000px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px 5px rgba(95, 97, 97, 0.89);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.arriba{
+    display: flex;
+    justify-content: space-around;
+}
+.titulo{
+    width: 370px;
+    height: 200px;
+    margin: 40px 0px 20px 0px;
+}
+.titulo h1{
+    font-family: 'Signika', sans-serif;
+    color: rgb(12, 116, 116);
+    font-size: 2.4em;
+    padding: 20px 20px 10px 20px;
+    line-height: 34px;
+}
+.titulo p{
+    color:rgb(192, 228, 225);
+    padding-left: 20px;
+    font-family: 'Eczar', serif;
+}
+.star{
+    width: 380px;
+    height: 180px;
+    margin: 50px 0px 20px 0px;
+}
+.star span{
+    background-color: rgb(192, 228, 225);
+    display: block;
+    font-family: 'Eczar', serif;
+    margin-top: 15px;
+    width: 300px;
+    color:rgb(12, 116, 116);
+    padding: 10px;
+    border-radius: 8px;
+}
+#triangle1{
+    margin-left: 30px;
+}
+#triangle2{
+    margin-left: 60px;
+}
+
+.cards{
+    display: flex;
+    margin:0 auto;
+    height: 250px;
+    width: 100%;
+}
+.tarjeta{
+    background-color: rgb(100, 98, 96) !important;
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+}
+.tarjeta p{
+    color:rgb(192, 228, 225);
+    padding: 0px 20px 20px 20px;
+    font-family: 'Eczar', serif;
+}
+.card{
+    display: flex;
+    padding: 15px 30px;
+}
+.card h3{
+    color: rgb(76, 197, 197);
+    font-family: 'Signika', sans-serif;
+}
+.card h4{
+    color:rgb(3, 58, 58);
+    font-family: 'Signika', sans-serif;
+}
+.titulos{
+    margin-left: 15px;
+}
+#margen1{
+    margin-left: 63px;
+    margin-top: 10px;
+}
+#margen2{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#margen3{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    body{
+        
+        width: 100vw;
+    }
+    #caja{
+        width: 430px;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0 0 10px 5px rgba(95, 97, 97, 0.89);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        height: 100vh;
+    }
+    .arriba{
+        display:block;
+    }
+    .titulo{
+        width: 370px;
+        height: 200px;
+        margin: 30px 20px 0px 20px;
+    }
+    .titulo h1{
+        font-family: 'Signika', sans-serif;
+        color: rgb(12, 116, 116);
+        font-size: 2.4em;
+        padding: 40px 20px 10px 20px;
+        text-align: center;
+    }
+    .titulo p{
+        color:rgb(192, 228, 225);
+        padding-left: 20px;
+        font-family: 'Eczar', serif;
+        text-align: center;
+    }
+    .star{
+        margin: 50px auto 0px auto;
+    }
+    #triangle{
+        margin-left: 30px;
+    }
+    #triangle1{
+        margin-left: 30px;
+    }
+    #triangle2{
+        margin-left: 30px;
+    }
+    .cards{
+        display: block;
+        margin: 0px auto 2px auto;
+    }
+    .tarjeta{
+        background-color: rgb(100, 98, 96) !important;
+        width: 310px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    #margen1{
+        margin: 10px auto 0px auto;
+    }
+    #margen2{
+        margin: 10px auto 0px auto;
+    }
+    #margen3{
+        margin: 10px auto 0px auto;
+    }
+}
