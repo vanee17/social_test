@@ -9,13 +9,13 @@ body{
     
 }
 #caja{
-    width: 1000px;
-    height: 550px;
+    width: 1150px;
+    height: 600px;
     background-color: rgb(0, 0, 0);
     box-shadow: 0 0 10px 5px rgba(95, 97, 97, 0.89);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .arriba{
     display: flex;
@@ -24,7 +24,7 @@ body{
 .titulo{
     width: 370px;
     height: 200px;
-    margin: 40px 0px 20px 0px;
+    margin: 60px 0px 20px 30px;
 }
 .titulo h1{
     font-family: 'Signika', sans-serif;
@@ -41,7 +41,7 @@ body{
 .star{
     width: 380px;
     height: 180px;
-    margin: 50px 0px 20px 0px;
+    margin: 60px 50px 20px 0px;
 }
 .star span{
     background-color: rgb(192, 228, 225);
@@ -62,7 +62,7 @@ body{
 
 .cards{
     display: flex;
-    margin:0 auto;
+    margin: 20px 58px;
     height: 250px;
     width: 100%;
 }
@@ -97,17 +97,17 @@ body{
     margin-top: 10px;
 }
 #margen2{
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
 }
 #margen3{
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: 60px;
 }
 
 @media (min-width: 360px) and (max-width: 640px) {
     body{
-        
+        height: 100%;
         width: 100vw;
     }
     #caja{
@@ -117,7 +117,7 @@ body{
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
-        height: 100vh;
+        height: 120vh;
     }
     .arriba{
         display:block;
