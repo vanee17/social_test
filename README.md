@@ -11,7 +11,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/vanee17/social_test.git
-- Live site URL:
+- Live site URL: https://vanee17.github.io/social_test/
 
 ### My process
 
